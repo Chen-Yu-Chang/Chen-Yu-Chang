@@ -1,0 +1,258 @@
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="// WELCOME TO MY PAGE">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="32%" r="80%">
+      <stop offset="0%" stop-color="#15304a"/>
+      <stop offset="45%" stop-color="#0a1620"/>
+      <stop offset="100%" stop-color="#04090f"/>
+    </radialGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d3a52" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1d3a52" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a2a66" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#3a2a66" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4ce0ff" stop-opacity="0"/>
+      <stop offset="85%" stop-color="#4ce0ff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8ef3ff" stop-opacity="0.55"/>
+    </linearGradient>
+    <style>
+      .scanbeam { animation: sweep 7.0s linear infinite; }
+      @keyframes sweep {
+        0%   { transform: translateX(-140px); }
+        100% { transform: translateX(900px); }
+      }
+      .blinkdot { animation: blink 1.6s ease-in-out infinite; }
+      @keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0.15; } }
+      @keyframes twinkle { 0%,100% { opacity:0.15; } 50% { opacity:1; } }
+      .glowdrift1 { animation: drift1 21s ease-in-out infinite; }
+      .glowdrift2 { animation: drift2 27s ease-in-out infinite; }
+      @keyframes drift1 { 0%,100% { transform: translate(-70px,-20px); } 50% { transform: translate(70px,20px); } }
+      @keyframes drift2 { 0%,100% { transform: translate(60px,20px); } 50% { transform: translate(-60px,-20px); } }
+      .detbox { animation-duration: 7.0s; animation-timing-function: linear; animation-iteration-count: infinite; }
+      
+@keyframes box0 {
+  0%   { opacity: 0; transform: translateY(6px) scale(0.94); }
+  18.12%  { opacity: 0; transform: translateY(6px) scale(0.94); }
+  22.12%  { opacity: 1; transform: translateY(0) scale(1); }
+  33.12%  { opacity: 1; transform: translateY(0) scale(1); }
+  39.12%  { opacity: 0; transform: translateY(-4px) scale(0.97); }
+  100% { opacity: 0; transform: translateY(-4px) scale(0.97); }
+}
+
+
+@keyframes box1 {
+  0%   { opacity: 0; transform: translateY(6px) scale(0.94); }
+  35.42%  { opacity: 0; transform: translateY(6px) scale(0.94); }
+  39.42%  { opacity: 1; transform: translateY(0) scale(1); }
+  50.42%  { opacity: 1; transform: translateY(0) scale(1); }
+  56.42%  { opacity: 0; transform: translateY(-4px) scale(0.97); }
+  100% { opacity: 0; transform: translateY(-4px) scale(0.97); }
+}
+
+
+@keyframes box2 {
+  0%   { opacity: 0; transform: translateY(6px) scale(0.94); }
+  52.73%  { opacity: 0; transform: translateY(6px) scale(0.94); }
+  56.73%  { opacity: 1; transform: translateY(0) scale(1); }
+  67.73%  { opacity: 1; transform: translateY(0) scale(1); }
+  73.73%  { opacity: 0; transform: translateY(-4px) scale(0.97); }
+  100% { opacity: 0; transform: translateY(-4px) scale(0.97); }
+}
+
+
+@keyframes box3 {
+  0%   { opacity: 0; transform: translateY(6px) scale(0.94); }
+  70.04%  { opacity: 0; transform: translateY(6px) scale(0.94); }
+  74.04%  { opacity: 1; transform: translateY(0) scale(1); }
+  85.04%  { opacity: 1; transform: translateY(0) scale(1); }
+  91.04%  { opacity: 0; transform: translateY(-4px) scale(0.97); }
+  100% { opacity: 0; transform: translateY(-4px) scale(0.97); }
+}
+
+
+@keyframes box4 {
+  0%   { opacity: 0; transform: translateY(6px) scale(0.94); }
+  87.35%  { opacity: 0; transform: translateY(6px) scale(0.94); }
+  91.35%  { opacity: 1; transform: translateY(0) scale(1); }
+  100.00%  { opacity: 1; transform: translateY(0) scale(1); }
+  100.00%  { opacity: 0; transform: translateY(-4px) scale(0.97); }
+  100% { opacity: 0; transform: translateY(-4px) scale(0.97); }
+}
+
+      .bothop { animation: bothop 7.0s linear infinite; }
+      @keyframes bothop {
+  0.00% { opacity: 0; transform: translate(90.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  15.12% { opacity: 0; transform: translate(90.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  20.12% { opacity: 0; transform: translate(90.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  22.12% { opacity: 1; transform: translate(90.0px,0.0px) rotate(-3deg) scale(1.18,0.78); }
+  25.12% { opacity: 1; transform: translate(90.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  33.12% { opacity: 1; transform: translate(90.0px,0.0px) rotate(-4deg) scale(1.12,0.82); }
+  36.27% { opacity: 1; transform: translate(180.0px,-46.0px) rotate(9deg) scale(0.85,1.2); }
+  39.42% { opacity: 1; transform: translate(270.0px,0.0px) rotate(-3deg) scale(1.18,0.78); }
+  42.42% { opacity: 1; transform: translate(270.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  50.42% { opacity: 1; transform: translate(270.0px,0.0px) rotate(-4deg) scale(1.12,0.82); }
+  53.58% { opacity: 1; transform: translate(360.0px,-46.0px) rotate(9deg) scale(0.85,1.2); }
+  56.73% { opacity: 1; transform: translate(450.0px,0.0px) rotate(-3deg) scale(1.18,0.78); }
+  59.73% { opacity: 1; transform: translate(450.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  67.73% { opacity: 1; transform: translate(450.0px,0.0px) rotate(-4deg) scale(1.12,0.82); }
+  70.88% { opacity: 1; transform: translate(540.0px,-46.0px) rotate(9deg) scale(0.85,1.2); }
+  74.04% { opacity: 1; transform: translate(630.0px,0.0px) rotate(-3deg) scale(1.18,0.78); }
+  77.04% { opacity: 1; transform: translate(630.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  85.04% { opacity: 1; transform: translate(630.0px,0.0px) rotate(-4deg) scale(1.12,0.82); }
+  88.19% { opacity: 1; transform: translate(720.0px,-46.0px) rotate(9deg) scale(0.85,1.2); }
+  91.35% { opacity: 1; transform: translate(810.0px,0.0px) rotate(-3deg) scale(1.18,0.78); }
+  94.35% { opacity: 1; transform: translate(810.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  96.00% { opacity: 1; transform: translate(810.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  98.00% { opacity: 0; transform: translate(810.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+  100.00% { opacity: 0; transform: translate(810.0px,0.0px) rotate(0deg) scale(1.0,1.0); }
+}
+      .botshadow { animation: botshadow 7.0s linear infinite; }
+      @keyframes botshadow {
+  0.00% { opacity: 0.0; transform: translate(90.0px,0px) scale(1.0,1); }
+  15.12% { opacity: 0.0; transform: translate(90.0px,0px) scale(1.0,1); }
+  20.12% { opacity: 0.0; transform: translate(90.0px,0px) scale(1.0,1); }
+  22.12% { opacity: 0.38; transform: translate(90.0px,0px) scale(1.05,1); }
+  25.12% { opacity: 0.32; transform: translate(90.0px,0px) scale(1.0,1); }
+  33.12% { opacity: 0.32; transform: translate(90.0px,0px) scale(1.0,1); }
+  36.27% { opacity: 0.15; transform: translate(180.0px,0px) scale(0.5,1); }
+  39.42% { opacity: 0.38; transform: translate(270.0px,0px) scale(1.05,1); }
+  42.42% { opacity: 0.32; transform: translate(270.0px,0px) scale(1.0,1); }
+  50.42% { opacity: 0.32; transform: translate(270.0px,0px) scale(1.0,1); }
+  53.58% { opacity: 0.15; transform: translate(360.0px,0px) scale(0.5,1); }
+  56.73% { opacity: 0.38; transform: translate(450.0px,0px) scale(1.05,1); }
+  59.73% { opacity: 0.32; transform: translate(450.0px,0px) scale(1.0,1); }
+  67.73% { opacity: 0.32; transform: translate(450.0px,0px) scale(1.0,1); }
+  70.88% { opacity: 0.15; transform: translate(540.0px,0px) scale(0.5,1); }
+  74.04% { opacity: 0.38; transform: translate(630.0px,0px) scale(1.05,1); }
+  77.04% { opacity: 0.32; transform: translate(630.0px,0px) scale(1.0,1); }
+  85.04% { opacity: 0.32; transform: translate(630.0px,0px) scale(1.0,1); }
+  88.19% { opacity: 0.15; transform: translate(720.0px,0px) scale(0.5,1); }
+  91.35% { opacity: 0.38; transform: translate(810.0px,0px) scale(1.05,1); }
+  94.35% { opacity: 0.32; transform: translate(810.0px,0px) scale(1.0,1); }
+  96.00% { opacity: 0.32; transform: translate(810.0px,0px) scale(1.0,1); }
+  98.00% { opacity: 0.0; transform: translate(810.0px,0px) scale(1.0,1); }
+  100.00% { opacity: 0.0; transform: translate(810.0px,0px) scale(1.0,1); }
+}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="240" fill="url(#bgGrad)"/>
+  <ellipse class="glowdrift1" cx="260" cy="90" rx="260" ry="180" fill="url(#glowA)"/>
+  <ellipse class="glowdrift2" cx="620" cy="150" rx="240" ry="170" fill="url(#glowB)"/>
+  <circle cx="295.0" cy="38.7" r="1.22" fill="#cdeeff" style="animation:twinkle 2.36s ease-in-out 2.14s infinite; opacity:0.53;"/><circle cx="61.0" cy="106.4" r="0.54" fill="#cdeeff" style="animation:twinkle 3.15s ease-in-out 0.28s infinite; opacity:0.40;"/><circle cx="383.6" cy="167.1" r="0.64" fill="#cdeeff" style="animation:twinkle 2.69s ease-in-out 2.51s infinite; opacity:0.82;"/><circle cx="517.9" cy="85.4" r="1.57" fill="#cdeeff" style="animation:twinkle 2.30s ease-in-out 3.43s infinite; opacity:0.49;"/><circle cx="136.9" cy="32.4" r="0.84" fill="#cdeeff" style="animation:twinkle 4.00s ease-in-out 0.72s infinite; opacity:0.64;"/><circle cx="572.2" cy="80.8" r="1.10" fill="#cdeeff" style="animation:twinkle 2.34s ease-in-out 0.24s infinite; opacity:0.45;"/><circle cx="608.8" cy="91.2" r="0.85" fill="#cdeeff" style="animation:twinkle 3.49s ease-in-out 1.81s infinite; opacity:0.50;"/><circle cx="709.1" cy="142.8" r="0.77" fill="#cdeeff" style="animation:twinkle 3.46s ease-in-out 2.10s infinite; opacity:0.79;"/><circle cx="651.9" cy="64.7" r="1.58" fill="#cdeeff" style="animation:twinkle 2.46s ease-in-out 1.67s infinite; opacity:0.73;"/><circle cx="143.7" cy="102.9" r="0.54" fill="#cdeeff" style="animation:twinkle 3.67s ease-in-out 3.06s infinite; opacity:0.64;"/><circle cx="780.4" cy="69.6" r="1.26" fill="#cdeeff" style="animation:twinkle 3.51s ease-in-out 2.32s infinite; opacity:0.58;"/><circle cx="749.2" cy="189.5" r="1.02" fill="#cdeeff" style="animation:twinkle 3.66s ease-in-out 0.24s infinite; opacity:0.70;"/><circle cx="579.5" cy="198.7" r="1.40" fill="#cdeeff" style="animation:twinkle 2.83s ease-in-out 1.54s infinite; opacity:0.68;"/><circle cx="29.9" cy="97.7" r="0.68" fill="#cdeeff" style="animation:twinkle 2.46s ease-in-out 0.24s infinite; opacity:0.73;"/><circle cx="123.8" cy="57.0" r="0.93" fill="#cdeeff" style="animation:twinkle 4.12s ease-in-out 0.32s infinite; opacity:0.57;"/><circle cx="493.5" cy="177.8" r="1.40" fill="#cdeeff" style="animation:twinkle 4.10s ease-in-out 1.11s infinite; opacity:0.56;"/><circle cx="325.7" cy="178.0" r="1.55" fill="#cdeeff" style="animation:twinkle 2.53s ease-in-out 0.70s infinite; opacity:0.47;"/><circle cx="215.3" cy="102.1" r="1.15" fill="#cdeeff" style="animation:twinkle 2.78s ease-in-out 0.02s infinite; opacity:0.56;"/><circle cx="334.9" cy="117.6" r="1.55" fill="#cdeeff" style="animation:twinkle 3.72s ease-in-out 2.06s infinite; opacity:0.66;"/><circle cx="605.1" cy="20.3" r="1.49" fill="#cdeeff" style="animation:twinkle 3.92s ease-in-out 3.50s infinite; opacity:0.75;"/><circle cx="355.3" cy="85.8" r="0.61" fill="#cdeeff" style="animation:twinkle 3.60s ease-in-out 0.25s infinite; opacity:0.38;"/><circle cx="193.7" cy="40.8" r="0.87" fill="#cdeeff" style="animation:twinkle 2.32s ease-in-out 0.00s infinite; opacity:0.43;"/><circle cx="99.3" cy="79.1" r="0.53" fill="#cdeeff" style="animation:twinkle 4.12s ease-in-out 2.46s infinite; opacity:0.42;"/><circle cx="232.0" cy="76.0" r="0.90" fill="#cdeeff" style="animation:twinkle 2.47s ease-in-out 3.40s infinite; opacity:0.85;"/><circle cx="420.1" cy="101.9" r="0.59" fill="#cdeeff" style="animation:twinkle 2.42s ease-in-out 1.37s infinite; opacity:0.48;"/><circle cx="739.4" cy="40.7" r="0.53" fill="#cdeeff" style="animation:twinkle 4.29s ease-in-out 2.11s infinite; opacity:0.42;"/><circle cx="488.0" cy="15.1" r="1.08" fill="#cdeeff" style="animation:twinkle 4.35s ease-in-out 3.45s infinite; opacity:0.70;"/><circle cx="239.8" cy="79.7" r="0.68" fill="#cdeeff" style="animation:twinkle 3.90s ease-in-out 2.13s infinite; opacity:0.74;"/>
+  <line x1="0" y1="0" x2="0" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="60" y1="0" x2="60" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="120" y1="0" x2="120" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="180" y1="0" x2="180" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="240" y1="0" x2="240" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="300" y1="0" x2="300" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="360" y1="0" x2="360" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="420" y1="0" x2="420" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="480" y1="0" x2="480" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="540" y1="0" x2="540" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="600" y1="0" x2="600" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="660" y1="0" x2="660" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="720" y1="0" x2="720" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="780" y1="0" x2="780" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="840" y1="0" x2="840" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="900" y1="0" x2="900" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="0" y1="0" x2="900" y2="0" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="0" y1="48" x2="900" y2="48" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="0" y1="96" x2="900" y2="96" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="0" y1="144" x2="900" y2="144" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="0" y1="192" x2="900" y2="192" stroke="#12303d" stroke-width="1" opacity="0.28"/><line x1="0" y1="240" x2="900" y2="240" stroke="#12303d" stroke-width="1" opacity="0.28"/>
+
+  <line x1="0" y1="205" x2="900" y2="205" stroke="#173e4a" stroke-width="1.4" opacity="0.7"/>
+
+  <text x="20" y="30" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#4ce0ff" letter-spacing="1">// WELCOME TO MY PAGE</text>
+  <circle class="blinkdot" cx="21" cy="45" r="3.5" fill="#39ff88"/>
+  <text x="30" y="49" font-family="'Courier New', monospace" font-size="11" fill="#7fe7ff" fill-opacity="0.8" letter-spacing="0.5">SYSTEMS ONLINE  ·  GLAD YOU STOPPED BY</text>
+
+  
+  <g class="detbox box0" style="transform-origin:90.0px 112px;">
+    <rect x="6.0" y="82.0" width="168" height="60" rx="3"
+          fill="#03181f" fill-opacity="0.55"/>
+    <path d="M 6.0 93.0 V 82.0 H 17.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 163.0 82.0 H 174.0 V 93.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 174.0 131.0 V 142.0 H 163.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 17.0 142.0 H 6.0 V 131.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="90.0" y="108.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" font-weight="700" fill="#eafcff" letter-spacing="0.5">PERCEPTION</text>
+    <text x="90.0" y="128.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="10" fill="#7fe7ff" fill-opacity="0.85">CONF 98%</text>
+    <line x1="90.0" y1="142.0" x2="90.0" y2="205" stroke="#215a6b" stroke-width="1.2"/>
+    <circle cx="90.0" cy="205" r="3" fill="#4ce0ff"/>
+  </g>
+
+
+  <g class="detbox box1" style="transform-origin:270.0px 112px;">
+    <rect x="186.0" y="82.0" width="168" height="60" rx="3"
+          fill="#03181f" fill-opacity="0.55"/>
+    <path d="M 186.0 93.0 V 82.0 H 197.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 343.0 82.0 H 354.0 V 93.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 354.0 131.0 V 142.0 H 343.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 197.0 142.0 H 186.0 V 131.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="270.0" y="108.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" font-weight="700" fill="#eafcff" letter-spacing="0.5">AUTONOMY STACK</text>
+    <text x="270.0" y="128.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="10" fill="#7fe7ff" fill-opacity="0.85">CONF 96%</text>
+    <line x1="270.0" y1="142.0" x2="270.0" y2="205" stroke="#215a6b" stroke-width="1.2"/>
+    <circle cx="270.0" cy="205" r="3" fill="#4ce0ff"/>
+  </g>
+
+
+  <g class="detbox box2" style="transform-origin:450.0px 112px;">
+    <rect x="366.0" y="82.0" width="168" height="60" rx="3"
+          fill="#03181f" fill-opacity="0.55"/>
+    <path d="M 366.0 93.0 V 82.0 H 377.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 523.0 82.0 H 534.0 V 93.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 534.0 131.0 V 142.0 H 523.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 377.0 142.0 H 366.0 V 131.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="450.0" y="108.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" font-weight="700" fill="#eafcff" letter-spacing="0.5">SENSOR FUSION</text>
+    <text x="450.0" y="128.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="10" fill="#7fe7ff" fill-opacity="0.85">CONF 97%</text>
+    <line x1="450.0" y1="142.0" x2="450.0" y2="205" stroke="#215a6b" stroke-width="1.2"/>
+    <circle cx="450.0" cy="205" r="3" fill="#4ce0ff"/>
+  </g>
+
+
+  <g class="detbox box3" style="transform-origin:630.0px 112px;">
+    <rect x="546.0" y="82.0" width="168" height="60" rx="3"
+          fill="#03181f" fill-opacity="0.55"/>
+    <path d="M 546.0 93.0 V 82.0 H 557.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 703.0 82.0 H 714.0 V 93.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 714.0 131.0 V 142.0 H 703.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 557.0 142.0 H 546.0 V 131.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="630.0" y="108.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" font-weight="700" fill="#eafcff" letter-spacing="0.5">EV SYSTEMS</text>
+    <text x="630.0" y="128.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="10" fill="#7fe7ff" fill-opacity="0.85">CONF 94%</text>
+    <line x1="630.0" y1="142.0" x2="630.0" y2="205" stroke="#215a6b" stroke-width="1.2"/>
+    <circle cx="630.0" cy="205" r="3" fill="#4ce0ff"/>
+  </g>
+
+
+  <g class="detbox box4" style="transform-origin:810.0px 112px;">
+    <rect x="726.0" y="82.0" width="168" height="60" rx="3"
+          fill="#03181f" fill-opacity="0.55"/>
+    <path d="M 726.0 93.0 V 82.0 H 737.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 883.0 82.0 H 894.0 V 93.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 894.0 131.0 V 142.0 H 883.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 737.0 142.0 H 726.0 V 131.0" fill="none" stroke="#4ce0ff" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="810.0" y="108.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" font-weight="700" fill="#eafcff" letter-spacing="0.5">C++ / PYTHON</text>
+    <text x="810.0" y="128.0" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="10" fill="#7fe7ff" fill-opacity="0.85">CONF 99%</text>
+    <line x1="810.0" y1="142.0" x2="810.0" y2="205" stroke="#215a6b" stroke-width="1.2"/>
+    <circle cx="810.0" cy="205" r="3" fill="#4ce0ff"/>
+  </g>
+
+
+  <g class="scanbeam">
+    <rect x="0" y="0" width="140" height="240" fill="url(#beamGrad)"/>
+    <rect x="137" y="0" width="3" height="240" fill="#eafcff"/>
+  </g>
+
+  
+  <ellipse class="botshadow" cx="0" cy="205" rx="15" ry="4" fill="#000814"/>
+  <g class="bothop" style="transform-origin:0px 205px;">
+    <g transform="translate(0,205)">
+      <line x1="0" y1="-31" x2="0" y2="-24" stroke="#ffb545" stroke-width="2"/>
+      <circle class="blinkdot" cx="0" cy="-32" r="2.6" fill="#4ce0ff"/>
+      <rect x="-11" y="-24" width="22" height="20" rx="6" fill="#ffb545" stroke="#8a5200" stroke-width="1"/>
+      <circle cx="-4.2" cy="-16" r="2.7" fill="#0a1620"/>
+      <circle cx="4.2" cy="-16" r="2.7" fill="#0a1620"/>
+      <circle cx="-4.6" cy="-16.6" r="1" fill="#baf6ff"/>
+      <circle cx="3.8" cy="-16.6" r="1" fill="#baf6ff"/>
+      <line x1="-5" y1="-4" x2="-5" y2="0" stroke="#ffb545" stroke-width="4" stroke-linecap="round"/>
+      <line x1="5" y1="-4" x2="5" y2="0" stroke="#ffb545" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+
+  <text x="895" y="230" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#3d6b80">github.com/USERNAME</text>
+</svg>
