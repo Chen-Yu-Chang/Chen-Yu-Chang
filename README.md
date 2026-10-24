@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Chen-Yu Enzo Chang: I teach cars to see. A car drives down a road while a perception model boxes cones." width="100%">
+  <img src="assets/hero.svg" alt="Chen-Yu Enzo Chang: I build things. I make content. A race car drives down a road while a perception model boxes cones." width="100%">
 </p>
 
 <p align="center">
   <a href="https://chen-yu-chang.github.io/My-Personal-Website/"><img src="https://img.shields.io/badge/Portfolio-2dd4bf?style=for-the-badge&labelColor=0f172a" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/chenyuchang0509/"><img src="https://img.shields.io/badge/LinkedIn-f59e0b?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a" alt="LinkedIn"></a>
   <a href="mailto:cchenyu.pro@gmail.com"><img src="https://img.shields.io/badge/Email-2dd4bf?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" alt="Email"></a>
-  <a href="https://www.youtube.com/@tenzooutoften"><img src="https://img.shields.io/badge/YouTube-f59e0b?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0f172a" alt="YouTube"></a>
+  <a href="https://www.youtube.com/@enzochangtw"><img src="https://img.shields.io/badge/YouTube-f59e0b?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0f172a" alt="YouTube"></a>
 </p>
 
 ## On track now
@@ -32,5 +32,5 @@
 </p>
 
 <p align="center">
-  <img src="assets/footer.svg" alt="Next lap: your team" width="100%">
+  <img src="assets/footer.svg" alt="See you at the next lap" width="100%">
 </p>
